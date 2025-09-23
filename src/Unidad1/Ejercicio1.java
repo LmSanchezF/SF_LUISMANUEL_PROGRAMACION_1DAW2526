@@ -7,9 +7,10 @@ public class Ejercicio1{
  System.out.print("Introduce tu nombre: ");
  String nombre = sc.nextLine();
  
- System.out.print("Introduce tu edad:  ");
+ System.out.print("Introduce tu edad: ");
  int edad = sc.nextInt();
  
- System.out.println("Hola "+nombre+",tienes "+edad+" años.");
+ System.out.println("Hola "+nombre+",tienes "+edad+" años. ");
+ System.out.println("tienes mas años que el sol. ");
  }
 }
