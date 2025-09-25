@@ -27,6 +27,9 @@ public class actividadesVariables {
 		 //Tipos no coinciden. Da error.
 		 //int numero = 10;
 		 //numero = "Hola";
+		 
+
+		 
 		
 		 
  }
