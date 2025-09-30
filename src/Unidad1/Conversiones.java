@@ -47,5 +47,6 @@ public static void main(String[] args) {
 			float t = 2.5f;
 			float c = d * t;
 			System.out.println(c);
+		
 }			
 }
