@@ -19,5 +19,10 @@ Scanner sc= new	 Scanner(System.in);
 	System.out.println("Multiplicacion:" + (x * y));
 	System.out.println("Division:" + (x / y));
 	
+	// Ejercicio Uso de Printf
+	double a= 12.34567;
+	double b=  12.35;
+	
+	
 }
 }
