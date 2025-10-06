@@ -20,7 +20,7 @@ public class CuentaBancaria {
 	//Restamos dinero al saldo
 	public void retirar (double dinero) {
 	Saldo = Saldo - dinero;
-	//Saldo +=dinero
+	//Saldo -=dinero
 	}
 	public void mostrarSaldo() {
 		System.out.println("El actual saldo es:" +Saldo);
@@ -33,6 +33,7 @@ public class CuentaBancaria {
 		//El new llama al contructor
 		CuentaBancaria cuentaDeLuisma = new CuentaBancaria(); 
 		 
+		//Pregunto al usuario su nombre para poner el titular de la cuenta.
 	
 		Scanner teclado = new Scanner(System.in);
 		//Pedir al ususario ingresar dinero y mostrar
