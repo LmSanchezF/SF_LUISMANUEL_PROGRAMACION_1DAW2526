@@ -1,5 +1,5 @@
 package Unidad1;
-
+//Perro
 public class Perro {
 // Atributos
 	String nombre;
@@ -14,7 +14,7 @@ public class Perro {
 		a1.nombre = "Tao";
 		a1.raza = "Boxer";
 		Perro a2 = new Perro();
-		a2.nombre = "Lua";
+		a2.nombre = "Mara";
 		a1.raza = "Collie";
 		
 		a1.ladrar();
