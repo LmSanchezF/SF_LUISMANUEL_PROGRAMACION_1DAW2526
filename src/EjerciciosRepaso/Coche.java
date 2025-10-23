@@ -2,15 +2,15 @@ package EjerciciosRepaso;
 
 public class Coche {
 
+
 	
-	String marca;
-	int velocidad;
+	 
 	
 	
 	public void acelerar(int cantidad) { 
-		velocidad += cantidad; 
-		
-	
+	int velocidad = cantidad; 
+	int mostrarVelocidad= cantidad;
+	System.out.println(mostrarVelocidad);
     
 	}
 
