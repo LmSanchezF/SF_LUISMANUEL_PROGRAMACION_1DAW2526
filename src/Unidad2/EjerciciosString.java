@@ -9,7 +9,8 @@ public class EjerciciosString {
 		System.out.println("Mayusculas "+ frase.toUpperCase());
 		System.out.println("La longuitud de la frase es: " + frase.length()); 
 		System.out.println("La primera letra es: "+frase.charAt(0));
-		System.out.println("La ultima letra es: "+frase.charAt.length()-1);
+		
+		sc.close();
 		
 		 }
 		
