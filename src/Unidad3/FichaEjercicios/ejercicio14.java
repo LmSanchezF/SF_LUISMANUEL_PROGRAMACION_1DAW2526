@@ -50,6 +50,8 @@ public class ejercicio14 {
 		System.out.println("Su precio para el analisis es " +analisis3+" euros");	
 		}
 		break;
+		default:
+		System.out.println("Introduzca una opcion valida");
 	}
 
 }
