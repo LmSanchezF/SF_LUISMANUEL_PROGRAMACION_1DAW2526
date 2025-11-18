@@ -11,8 +11,11 @@ public class Ejercicio5 {
 	System.out.println("Introduce el segundo numero");
 	b= teclado.nextInt();
 	if(a>b) {
-System.out.println(a+" Es mayor que" +b);
-System.out.println("Su suma es" +(a+b));
-	}
-
+System.out.println(a+" Es mayor que " +b);
+System.out.println(" Su suma es " +(a+b));
+	}else if (a<b) {
+System.out.println(a+ " es menor que " +b);
+System.out.println(" su producto es " +(a*b));
+}
+}
 }

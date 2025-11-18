@@ -1,0 +1,10 @@
+package Unidad3.FichaEjercicios;
+
+public class ejercicio15 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
