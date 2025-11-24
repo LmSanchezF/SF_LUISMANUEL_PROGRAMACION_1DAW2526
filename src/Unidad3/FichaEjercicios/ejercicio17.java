@@ -8,33 +8,40 @@ public class ejercicio17 {
 	double precio1=0.30;
 	double precio2=0.20;
 	double precio3=0.15;
+	int seleccion;
+	do {
 	System.out.println("Bienvenido a la aplicacion de venta de pienso");
 	System.out.println("Elija un tipo de pienso");
 	System.out.println(" 1.Pienso nº1 (Calidad premium)");
 	System.out.println(" 2.Pienso nº2 (Calidad superior) ");
 	System.out.println(" 3.Pienso nº3 ");
-	int seleccion=teclado.nextInt();
+	 seleccion=teclado.nextInt();
+	}while (seleccion>=4);
+	System.out.println("Introduzca un numero valido (1,2 o 3");
 	System.out.println("Introduce cuantos kilos desea");
 	kilos=teclado.nextInt();
-	
+
 	
 	switch(seleccion) {
 	case 1:
 	System.out.println(" El precio de su seleccion es "+(precio1*kilos)+"euros");
 	if(kilos<=0);
+	break;
 	
 	case 2:
 	System.out.println(" El precio de su seleccion es "+(precio2*kilos)+"euros");
 	if(kilos<=0);
+	break;
 	
 	case 3:
 	System.out.println(" El precio de su seleccion es "+(precio3*kilos)+"euros");
 	if(kilos<=0);
+	break;
 	
+	}
 	}
 	
 	
 	
 	}
 
-}
