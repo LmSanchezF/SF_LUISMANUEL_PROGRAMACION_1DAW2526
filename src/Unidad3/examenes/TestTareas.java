@@ -148,7 +148,7 @@ public class TestTareas {
 			}
 			System.out.println("Duraciones totales calculadad mediante bucle:" +promedio);
 			System.out.println("Promedio exacto"+promedio/3);
-			System.out.println("Promedio redondeado");
+			System.out.println("Promedio redondeado"+promedio);
 			break;
 			case 5:
 			double prioridadMinima=0;
