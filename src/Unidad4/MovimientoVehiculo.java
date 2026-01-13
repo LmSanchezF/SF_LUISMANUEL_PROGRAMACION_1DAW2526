@@ -11,7 +11,9 @@ public class MovimientoVehiculo {
 		c.frenar();
 		b.acelerar();
 		b.frenar();
-
+		c.abrirPuertas();
+		c.cerrarPuertas();
+		
 	}
 
 }

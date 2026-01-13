@@ -4,7 +4,7 @@ public class Bicicleta extends Vehiculo {
 
 	@Override
 	public void acelerar() {
-		System.out.println(" La bicicleta acelera"+ velocidad +"kilometros por hora");
+		System.out.println(" La bicicleta acelera"+ velocidadMas +"kilometros por hora");
 	}
 
 	@Override

@@ -1,6 +1,6 @@
 package Unidad4;
 
-import Unidad4.JerarquiaAnimal.JerarquiaAnimal.Animal;
+import Unidad4.Animal;
 
 public class Perro extends Animal{
 

@@ -4,7 +4,7 @@ public class Coche extends Vehiculo {
 
 	@Override
 	public void acelerar() {
-	System.out.println(" El coche acelera");
+	System.out.println(" El coche acelera"+velocidadMas);
 	}
 
 	@Override
@@ -12,10 +12,10 @@ public class Coche extends Vehiculo {
 	System.out.println(" El coche frena");
 	}
 	public void abrirPuertas() {
-	System.out.println(" Puertas abiertas");	
+	System.out.println(" El coche abre sus puertas");	
 	}
 	public void cerrarPuertas() {
-	System.out.println(" Puertas cerradas");	
+	System.out.println(" El coche cierra sus puertas");	
 	}
 
 
