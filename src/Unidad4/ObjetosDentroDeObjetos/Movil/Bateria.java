@@ -9,6 +9,6 @@ this.capacidad=capacidad;
 this.duracion=duracion;
 }
 public void mostarInfo() {
-System.out.println("Esta bateria tiene una capacidad de " +capacidad+ " con una duracion de " +duracion);	
+System.out.println("Esta bateria tiene una capacidad de " +capacidad+ " y cuenta con una duracion de " +duracion);	
 }
 }

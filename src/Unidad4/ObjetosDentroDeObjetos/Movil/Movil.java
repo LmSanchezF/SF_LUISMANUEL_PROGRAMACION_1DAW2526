@@ -15,7 +15,7 @@ this.color=color;
 this.b=new Bateria(capacidad,duracion);
 }
 public void mostrarInfo() {
-System.out.println("Movil de la marca " +marca+ " tiene un precio de " +precio+" alcanza una velocidad de "+velocidad+" es de color " +color);	
+System.out.println("Movil de la marca " +marca+ " tiene un precio de " +precio+" alcanza una velocidad de "+velocidad+" y es de color " +color);	
 b.mostarInfo();
 }
 }

@@ -1,6 +1,4 @@
-package Unidad4.ObjetosDentroDeObjetos;
-
-import Unidad4.ObjetosDentroDeObjetos.Movil.Movil;
+package Unidad4.ObjetosDentroDeObjetos.Movil;
 
 public class Main {
 
