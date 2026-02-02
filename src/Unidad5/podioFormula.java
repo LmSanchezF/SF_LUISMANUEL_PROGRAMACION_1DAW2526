@@ -11,6 +11,12 @@ public class podioFormula {
 	System.out.println("El ganador es " +pilotos[0]);
 	System.out.println("El tercero es " +pilotos[2]);
 	
+	try {
+		System.out.println(pilotos[3]);
+	}
+	catch (ArrayIndexOutOfBoundsException e) {
+		System.out.println("Ha intentado acceder a una posicion que no existe");
+	}
 	}
 
 }
