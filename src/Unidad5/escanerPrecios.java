@@ -1,4 +1,4 @@
-package Tema5;
+package Unidad5;
 
 public class escanerPrecios {
 
