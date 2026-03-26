@@ -5,8 +5,9 @@ public class BicicletaElectrica extends  VehiculoElectrico {
 	protected boolean tienePedales;
 
 	
-	public BicicletaElectrica(String marca, String modelo, int autonomia, boolean tienePedales) {
-		super(marca, modelo, autonomia);
+	public BicicletaElectrica(String marca, String modelo, int autonomia, int id, boolean tienePedales) {
+		super(marca, modelo, autonomia, id);
+		this.tienePedales=tienePedales;
 		
 	}
 
@@ -14,9 +15,10 @@ public class BicicletaElectrica extends  VehiculoElectrico {
 	@Override
 	public void mostrarInformacion() {
 		
+		System.out.println("[Bicicleta Electrica]");
 		super.mostrarInformacion();
 		
-		System.out.println("Tiene pedales"+tienePedales);
+		System.out.print(" - "+"Tiene pedales: "+tienePedales);
 	}
 
 

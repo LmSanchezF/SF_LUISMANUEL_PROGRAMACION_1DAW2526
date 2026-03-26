@@ -8,21 +8,25 @@ protected String modelo;
 	
 protected int autonomia;
 
+protected int id;
 
-public VehiculoElectrico(String marca, String modelo, int autonomia) {
+
+public VehiculoElectrico(String marca, String modelo, int autonomia, int id) {
 	super();
 	this.marca = marca;
 	this.modelo = modelo;
 	this.autonomia = autonomia;
+	this.id=id;
 }
 
 public void mostrarInformacion() {
+	System.out.println();
 	
-	System.out.println("El vehiculo es de la marca: "+marca);
+	System.out.print("El vehiculo es de la marca: "+marca+ " - ");
 	
-	System.out.println("El modelo es : "+modelo);
+	System.out.print(" - "+"El modelo es : "+modelo);
 	
-	System.out.println("La autonomia del vehiculo es de : "+autonomia);
+	System.out.print(" - "+"La autonomia del vehiculo es de : "+autonomia);
 		
 }
 

@@ -6,16 +6,17 @@ public class PatineteElectrico extends VehiculoElectrico {
 	
 	
 
-	public PatineteElectrico(String marca, String modelo, int autonomia, int potenciaMotor) {
-		super(marca, modelo, autonomia);
+	public PatineteElectrico(String marca, String modelo, int autonomia,int id, int potenciaMotor) {
+		super(marca, modelo, autonomia, id);
 		this.potenciaMotor = potenciaMotor;
 	}
 
 	@Override
 	public void mostrarInformacion() {
-		// TODO Auto-generated method stub
+		System.out.println("[Patinete Electrico]");
 		super.mostrarInformacion();
-		System.out.println("La potencia del motor del patinete es de: " +potenciaMotor);
+		System.out.print(" - "+"La potencia del motor del patinete es de: " +potenciaMotor);
+		System.out.println();
 
 	}
 
